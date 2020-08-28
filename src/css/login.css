@@ -1,0 +1,458 @@
+header {
+  width: 100%;
+}
+header > div {
+  height: 44px;
+  width: 1190px;
+  margin: auto;
+  padding: 22px 0;
+}
+header > div > h1 {
+  width: 190px;
+  height: 27px;
+  margin-top: 8px;
+}
+header > div > h1 > a {
+  display: block;
+  text-indent: -999px;
+  background: url(../img/login2.png) no-repeat;
+  background-size: 100%;
+}
+
+#banner {
+  position: relative;
+  margin: 0 auto;
+  width: 1190px;
+  height: 600px;
+}
+#banner > #swipterBox {
+  width: 1190px;
+  height: 600px;
+}
+#banner > #swipterBox img {
+  width: 100%;
+  height: 600px;
+}
+#banner > .login {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  padding: 25px 15px 23px;
+  background: #fff;
+  right: 30px;
+  top: 100px;
+  z-index: 999;
+  overflow: hidden;
+}
+#banner > .login > .qr-code {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 60px;
+}
+#banner > .login > .qr-code > i {
+  position: absolute;
+  font-size: 62px;
+  color: #ff0036;
+  top: 0px;
+  left: 0px;
+}
+#banner > .login > .write {
+  position: absolute;
+  width: 70px;
+  height: 80px;
+  right: -70px;
+  top: 0px;
+  background: #fff;
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+#banner > .login > .poptip {
+  float: right;
+  margin-top: -20px;
+  margin-right: 50px;
+  width: 86px;
+  height: 16px;
+  padding: 5px 10px;
+  border: 1px solid #ff9000;
+}
+#banner > .login > .poptip > .poptip-content {
+  font-size: 12px;
+  color: #ff9000;
+}
+#banner > .login > .poptip > .arrow {
+  position: absolute;
+  width: 6px;
+  height: 26px;
+  right: 59px;
+  top: 6px;
+  color: #fff;
+}
+#banner > .login > .poptip > .arrow span {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left-color: #ff9000;
+  border-width: 6px 0 6px 6px;
+  border-style: solid;
+  top: 7px;
+  right: 0;
+}
+#banner > .login > .tab {
+  width: 300px;
+  height: 27px;
+  margin-left: 15px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#banner > .login > .tab > .pass {
+  text-align: center;
+  float: left;
+  width: 72px;
+  height: 32px;
+  line-height: 32px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+#banner > .login > .tab > .free {
+  text-align: center;
+  float: left;
+  width: 72px;
+  height: 32px;
+  line-height: 32px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+}
+#banner > .login > .mainInp {
+  width: 300px;
+}
+#banner > .login > .mainInp > .loginBox {
+  width: 302px;
+  padding-left: 15px;
+}
+#banner > .login > .mainInp > .loginBox > .logintips {
+  width: 300px;
+  height: 32px;
+  font-size: 14px;
+  color: #6c6c6c;
+  padding: 5px 8px;
+  border: 1px solid #ff9000;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  display: none;
+}
+#banner > .login > .mainInp > .loginBox > form {
+  width: 302px;
+  height: 200px;
+  box-sizing: border-box;
+}
+#banner > .login > .mainInp > .loginBox > form label {
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+#banner > .login > .mainInp > .loginBox > form label:hover {
+  border-color: #ff0036;
+  z-index: 55;
+}
+#banner > .login > .mainInp > .loginBox > form label > .head {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  text-align: center;
+  line-height: 40px;
+}
+#banner > .login > .mainInp > .loginBox > form label > .head i {
+  font-size: 24px;
+  color: #fff;
+}
+#banner > .login > .mainInp > .loginBox > form label input {
+  width: 245px;
+  height: 40px;
+  line-height: 38px;
+  border: 0;
+  padding-left: 15px;
+  outline: 0;
+}
+#banner > .login > .mainInp > .loginBox > form label > .lock {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  text-align: center;
+  line-height: 40px;
+}
+#banner > .login > .mainInp > .loginBox > form label > .lock i {
+  font-size: 24px;
+  color: #fff;
+}
+#banner > .login > .mainInp > .loginBox > form > .sub {
+  width: 100%;
+  height: 42px;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  background: #ff0036;
+  border-radius: 4px;
+  border: 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+}
+#banner > .login > .mainInp > .loginBox > form > .txt-tip {
+  width: 180px;
+  float: right;
+}
+#banner > .login > .mainInp > .loginBox > form > .txt-tip a {
+  float: right;
+  color: #999;
+  font-size: 12px;
+  margin: 0 5px;
+}
+#banner > .login > .mainInp > .registerBox {
+  width: 302px;
+  padding-left: 15px;
+  display: none;
+}
+#banner > .login > .mainInp > .registerBox > .logintips {
+  width: 300px;
+  height: 32px;
+  font-size: 14px;
+  color: #6c6c6c;
+  padding: 5px 8px;
+  border: 1px solid #ff9000;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+  display: none;
+}
+#banner > .login > .mainInp > .registerBox > form {
+  width: 302px;
+  height: 200px;
+  box-sizing: border-box;
+}
+#banner > .login > .mainInp > .registerBox > form label {
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+#banner > .login > .mainInp > .registerBox > form label:hover {
+  border-color: #ff0036;
+}
+#banner > .login > .mainInp > .registerBox > form label > .head {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  text-align: center;
+  line-height: 40px;
+}
+#banner > .login > .mainInp > .registerBox > form label > .head i {
+  font-size: 24px;
+  color: #fff;
+}
+#banner > .login > .mainInp > .registerBox > form label input {
+  width: 245px;
+  height: 40px;
+  line-height: 38px;
+  border: 0;
+  padding-left: 15px;
+  outline: 0;
+}
+#banner > .login > .mainInp > .registerBox > form label > .lock {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  text-align: center;
+  line-height: 40px;
+}
+#banner > .login > .mainInp > .registerBox > form label > .lock i {
+  font-size: 24px;
+  color: #fff;
+}
+#banner > .login > .mainInp > .registerBox > form > .sub {
+  width: 100%;
+  height: 42px;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  background: #ff0036;
+  border-radius: 4px;
+  border: 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#banner > .login > .mainInp > .registerBox > form > .txt-tip {
+  width: 180px;
+  float: right;
+}
+#banner > .login > .mainInp > .registerBox > form > .txt-tip a {
+  float: right;
+  color: #999;
+  font-size: 12px;
+  margin: 0 5px;
+}
+#banner > .login > .mainInp > .active {
+  display: block;
+}
+
+#footer {
+  width: 100%;
+}
+#footer > .inner_footer {
+  height: 604px;
+  width: 100%;
+  margin: 0 auto;
+}
+#footer > .inner_footer > .tmall-en {
+  width: 100%;
+  width: 1190px;
+  margin: 0 auto;
+  height: 100px;
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+}
+#footer > .inner_footer > .tmall-en > a {
+  float: left;
+  display: block;
+  width: 297px;
+  height: 100px;
+}
+#footer > .inner_footer > .tmall-en > a > .tm-box {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ff0036;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  color: #ff0036;
+  margin: 20px 0 0 25px;
+}
+#footer > .inner_footer > .tmall-en > a > .tm-txt {
+  float: left;
+  margin-top: 24px;
+  margin-left: 20px;
+  width: 194px;
+  height: 54px;
+}
+#footer > .inner_footer > .tmall-en > a > .tm-txt > strong {
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+  font-weight: 800;
+}
+#footer > .inner_footer > .tmall-en > a > .tm-txt > span {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999;
+}
+#footer > .inner_footer .tmall-de {
+  width: 1190px;
+  height: 190px;
+  padding-top: 22px;
+  margin: 0 auto;
+  background: url(../img/footer.png) no-repeat 50px 190px;
+  background-size: 68px 25px;
+}
+#footer > .inner_footer .tmall-de > dl {
+  float: left;
+  width: 186px;
+  padding-left: 52px;
+}
+#footer > .inner_footer .tmall-de > dl dt {
+  line-height: 36px;
+  font-weight: 16px;
+  font-weight: bold;
+  color: #666;
+}
+#footer > .inner_footer .tmall-de > dl dd {
+  line-height: 24px;
+  font-size: 12px;
+  color: #ccc;
+}
+#footer > .inner_footer .tmall-de > dl > .img {
+  width: 105px;
+  height: 105px;
+}
+#footer > .inner_footer .tmall-de > dl > .img > img {
+  width: 105px;
+  height: 105px;
+}
+#footer > .inner_footer .tmall-global {
+  width: 100%;
+  height: 244px;
+  background: #000;
+  border-top: 2px solid #ff0036;
+}
+#footer > .inner_footer .tmall-global > .inner_gl {
+  width: 1190px;
+  margin: 0 auto;
+  height: 220px;
+}
+#footer > .inner_footer .tmall-global > .inner_gl > .p1 {
+  color: #fff;
+  line-height: 25px;
+  padding: 5px 0;
+}
+#footer > .inner_footer .tmall-global > .inner_gl > .p1 > a {
+  color: #fff;
+  line-height: 25px;
+  font-size: 12px;
+}
+#footer > .inner_footer .tmall-global > .inner_gl > .p2 {
+  color: #fff;
+  line-height: 25px;
+  padding: 5px 0;
+}
+#footer > .inner_footer .tmall-global > .inner_gl > .p2 > a {
+  color: #fff;
+  line-height: 25px;
+  font-size: 12px;
+  margin-right: 3px;
+}
+#footer > .inner_footer .tmall-global > .inner_gl .copyright {
+  width: 1190px;
+  height: 150px;
+  color: #fff;
+  font-size: 12px;
+}
+#footer > .inner_footer .tmall-global > .inner_gl .copyright > a {
+  color: #fff;
+  line-height: 25px;
+  font-size: 12px;
+  margin-right: 95px;
+  color: #999;
+}
+#footer > .inner_footer .tmall-global > .inner_gl .copyright > .imgb {
+  display: block;
+  width: 1190px;
+  height: 30px;
+  padding: 10px 0 5px 0;
+}
+#footer > .inner_footer .tmall-global > .inner_gl .copyright > .imgb > .gong {
+  width: 30px;
+  height: 30px;
+}
+#footer > .inner_footer .tmall-global > .inner_gl .copyright > .imgb > .con {
+  width: 80px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=login.css.map */
